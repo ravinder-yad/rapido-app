@@ -1,0 +1,10 @@
+{
+    "buildCommand": "cd gati-2026 && npm install && npm run build",
+    "outputDirectory": "gati-2026/dist",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
